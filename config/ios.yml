@@ -1,0 +1,11 @@
+platformName: android
+deviceName: xxxx
+app: C:\\Users\\lixio\\Desktop\\douban.apk
+    # 这个参数指的是appium在启动待测应用之后，用来判断是否启动成功的期望结果(本来是用起始activity做对比)
+appWaitActivity: com.douban.frodo.activity.SplashActivity
+noSign: True
+unicodeKeyboard: True
+resetKeyboard: True
+newCommandTimeout: 600
+# app初次安装需要授权，该参数表示自动授权，但是并不是在所有手机上都有效
+autoGrantPermissions: True

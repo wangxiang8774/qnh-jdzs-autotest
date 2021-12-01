@@ -1,0 +1,12 @@
+- platform: android #表示设备类型
+  udid: 127.0.0.1:62001 #设备的唯一标识，安卓就是使用adb devices看到的
+  appiumserver: http://localhost #该设备要连接的appium server地址
+  port: 4723 #是appium server暴露出的端口，也是脚本和appium server连接的端口
+  systemPort: 8200 #这是appium server和手机上的ui2 server通信的端口
+  chromedriverPort: 8000 #测试webview或者纯H5是chromedriver对应的端口
+#- platform: android #表示设备类型
+#  udid: 127.0.0.1:62025 #设备的唯一标识，安卓就是使用adb devices看到的
+#  appiumserver: http://localhost #该设备要连接的appium server地址
+#  port: 4490 #是appium server暴露出的端口，也是脚本和appium server连接的端口
+#  systemPort: 8201 #这是appium server和手机上的ui2 server通信的端口
+#  chromedriverPort: 8001 #测试webview或者纯H5是chromedriver对应的端口
